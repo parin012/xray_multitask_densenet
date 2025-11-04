@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Notebooks 제외
+*.ipynb
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Envs / logs
+.env
+.venv/
+venv/
+*.log
+
+# Artifacts (결과/모델)
+results/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.onnx
+*.h5
